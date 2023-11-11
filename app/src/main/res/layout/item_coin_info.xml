@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="0dp"
+    android:layout_height="wrap_content"
     android:layout_margin="4dp"
     app:cardUseCompatPadding="true">
 
@@ -25,12 +25,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="16dp"
-            android:textColor="#000"
+            android:textColor="#F30C0C"
             android:textSize="16sp"
             app:layout_constraintBottom_toTopOf="@id/tvPrice"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
+            android:shadowColor="@color/cardview_dark_background"
             tools:text="BTC / USD" />
 
         <TextView
